@@ -5,9 +5,9 @@ const Footer = ({ data }) => {
     var networks = data.social.map(function (network) {
       return (
         <li key={network.name}>
-          <a >
+        
             <i className={network.className}></i>
-          </a>
+        
         </li>
       );
     });
@@ -22,9 +22,9 @@ const Footer = ({ data }) => {
           <ul className="copyright">
             <li>
               Made by{" "}
-              <a title="Shajith" href="">
+            
               CPC
-              </a>
+              
             </li>
           </ul>
         </div>
